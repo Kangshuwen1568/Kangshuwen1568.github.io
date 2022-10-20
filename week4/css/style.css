@@ -1,0 +1,7 @@
+#box1 {
+    background-image: url(../image/backgroud-image1.jpg);
+    width: 200px;
+    border: 5px solid black;
+    background-color: #2B2BF4;
+    padding: 2px;
+}
