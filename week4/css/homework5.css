@@ -1,1 +1,35 @@
-#
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#box2 {
+    padding-top: 2%;
+}
+
+body {
+    background-color: black;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: white;
+    font-size: 31px;
+    font-family: 'Noto Serif Gujarati', serif;
+}
+
+p {
+    color: #c8c5bc;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10%;
+    font-family: 'Lato', sans-serif;
+}
