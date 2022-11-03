@@ -1,0 +1,61 @@
+.logo {
+    grid-area: LOGO;
+}
+
+.menu {
+    grid-area: MENU;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.imageslideshow {
+    grid-area: IMAGE_SLIDESHOW;
+    padding-top: 200px;
+}
+
+.feat1 {
+    grid-area: FEAT_1;
+}
+
+.feat2 {
+    grid-area: FEAT_2;
+}
+
+.feat3 {
+    grid-area: FEAT_3;
+}
+
+.slidebar {
+    grid-area: SLIDEBAR;
+}
+
+.textcontent {
+    grid-area: TEXT_CONTENT;
+}
+
+.footer {
+    grid-area: FOOTER;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'LOGO MENU MENU'
+        'IMAGE_SLIDESHOW IMAGE_SLIDESHOW IMAGE_SLIDESHOW'
+        'FEAT_1 FEAT_2 FEAT_3'
+        'SLIDEBAR TEXT_CONTENT TEXT_CONTENT'
+        'FOOTER FOOTER FOOTER';
+    gap: 10px;
+    background-color: grey;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
