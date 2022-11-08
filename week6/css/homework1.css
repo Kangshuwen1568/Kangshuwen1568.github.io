@@ -1,0 +1,113 @@
+body {
+    margin: 0%;
+}
+
+.logo1 {
+    grid-area: logo1;
+    display: flex;
+    justify-content: left;
+    margin-left: 200px;
+}
+
+#logotext1 {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+.nav {
+    grid-area: nav;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 40px;
+    margin-top: 250px;
+}
+
+.context {
+    margin-top: 90px;
+    padding-left: 100px;
+    grid-area: context;
+    text-align: left;
+    font-size: 30px;
+}
+
+#social {
+    margin-bottom: 0%;
+}
+
+#business {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#perfomance {
+    margin-top: 1%;
+    font-size: 13px;
+    color: gray;
+}
+
+.button1 {
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+#buttontext1 {
+    margin: auto;
+    margin-left: 6%;
+    font-size: 16px;
+    color: white;
+}
+
+.imggroup1423 {
+    grid-area: imggroup1423;
+}
+
+#group1423 {
+    width: 65%;
+    height: auto;
+}
+
+.mouseicon {
+    grid-area: mouse;
+}
+
+#buttonmouse {
+    border-radius: 48%;
+    width: 30px;
+    height: 45px;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 8px 8px 20px gray;
+}
+
+.container1 {
+    display: grid;
+    grid-template-areas:
+        'logo1 logo1 logo1 nav nav nav'
+        'sidebar context context imggroup1423 imggroup1423 imggroup1423'
+        'mouse mouse mouse mouse mouse mouse'
+    ;
+    text-align: center;
+    background-image: url(../image/Bg\ Shape@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
