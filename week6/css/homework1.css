@@ -111,3 +111,69 @@ a {
     text-decoration: none;
 
 }
+
+.image {
+    grid-area: image;
+    margin-top: 80px;
+}
+
+#leftimage {
+    width: 80%;
+    height: auto;
+}
+
+.context2 {
+    grid-area: context2;
+    text-align: left;
+    padding-right: 100px;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 17%;
+}
+
+#bio {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+#title {
+    margin-top: 20px;
+    font-size: 55px;
+    margin-bottom: 0%;
+}
+
+#text {
+    font-size: 19px;
+    color: grey;
+}
+
+.button2 {
+    margin: auto;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    padding-top: 11px;
+}
+
+#buttontext2 {
+    margin: auto;
+    margin-left: 65px;
+    font-size: 19px;
+    color: white;
+}
+
+
+.container2 {
+    margin-top: 10px;
+    display: grid;
+    grid-template-areas:
+        'image context2'
+    ;
+    text-align: center;
+    background-image: url(../image/who\ we\ are\ background@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-x: 700px;
+    background-position-y: 110px;
+}
