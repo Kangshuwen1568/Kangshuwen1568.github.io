@@ -143,7 +143,7 @@ a {
     margin-bottom: 0%;
 }
 
-#text {
+.text {
     font-size: 19px;
     color: grey;
 }
@@ -163,9 +163,8 @@ a {
     color: white;
 }
 
-
 .container2 {
-    margin-top: 10px;
+    margin-top: 5px;
     display: grid;
     grid-template-areas:
         'image context2'
@@ -176,4 +175,122 @@ a {
     background-attachment: scroll;
     background-position-x: 700px;
     background-position-y: 110px;
+}
+
+.contexttext {
+    text-align: left;
+    padding-left: 150px;
+    grid-area: contexttext;
+}
+
+#servicelink {
+    margin-bottom: 0%;
+    font-size: 22px;
+    color: blue;
+}
+
+#title2 {
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+.topbox {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 60px;
+    grid-area: topbox;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.box {
+    border-radius: 50px;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 5px 5px lightblue;
+    margin-bottom: 140px;
+    flex: 1;
+}
+
+.contentbox {
+    width: 30%;
+    height: auto;
+}
+
+#contentbox {
+    width: 30%;
+    height: auto;
+}
+
+.box h1 {
+    text-align: left;
+    font-size: 17px;
+    margin-top: 35px;
+    margin-bottom: 24px;
+}
+
+.box p {
+    text-align: left;
+    color: grey;
+}
+
+.button3 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.button3 a {
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 10px;
+}
+
+.buttonm {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.buttonm a {
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 10px;
+}
+
+.buttombox {
+    grid-area: buttombox;
+    margin-left: 120px;
+    margin-right: 120px;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+
+.container3 {
+    margin-top: 70px;
+    display: grid;
+    grid-template-areas:
+        'contexttext contexttext contexttext'
+        'topbox topbox topbox'
+        'buttombox buttombox buttombox'
+    ;
+    background-image: url(../image/background@2x.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-y: 350px;
 }
