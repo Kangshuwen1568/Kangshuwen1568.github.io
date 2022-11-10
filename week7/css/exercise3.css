@@ -1,0 +1,46 @@
+body {
+    max-width: 750px;
+    height: 600px;
+}
+
+.form {
+    color: green;
+    background-color: #C5F2D4;
+    padding-top: 1vw;
+    width: 55%;
+    position: relative;
+    left: 100%;
+}
+
+legend {
+    font-size: 25px;
+}
+
+
+.email {
+    display: flex;
+    gap: 145px;
+    color: rgba(96, 148, 122, 155);
+}
+
+.email a {
+    margin-bottom: 100px;
+}
+
+.send {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 135px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 2vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#country {
+    width: 47%;
+}
