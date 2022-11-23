@@ -1,0 +1,236 @@
+body {
+    margin: 0%;
+}
+
+#main {
+    background-color: white;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.top {
+    display: flex;
+}
+
+.top div {
+    flex: 1;
+}
+
+
+.container1 {
+    width: 100%;
+    height: 95vh;
+    background-image: url(../img/backgroud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo1 {
+    margin-left: 170px;
+}
+
+.nav {
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    gap: 70px;
+    font-size: 17px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    color: red;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 15%;
+}
+
+.title h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.personalimage {
+    position: relative;
+    margin-left: 58%;
+    margin-top: -30%;
+}
+
+.container2 {
+    margin-top: 75px;
+}
+
+.container2 h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container2 p {
+    font-size: 30px;
+    align-items: center;
+    margin: 5% 10% 10% 20%;
+    word-spacing: 8px;
+}
+
+.container3 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/backgroud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tool {
+    margin: 15% 5% 5% 15%;
+    position: relative;
+}
+
+.tool h2 {
+    padding-top: 80px;
+    color: white;
+    font-size: 50px;
+}
+
+.tool p {
+    color: white;
+    font-size: 20px;
+    word-spacing: 8px;
+    margin-left: 30%;
+    margin-top: -9%;
+
+}
+
+.xampp {
+    margin: 15% 5% 5% 15%;
+}
+
+.xampp img {
+    margin-left: 55%;
+    margin-top: -15%;
+}
+
+.xampp p {
+    color: white;
+    font-size: 20px;
+    word-spacing: 8px;
+}
+
+.buttom {
+    text-align: center;
+}
+
+.buttom a {
+    background-color: rgb(255, 102, 0);
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 22px;
+}
+
+.container4 {
+    width: 100%;
+    height: 60vh;
+}
+
+.form {
+    color: green;
+    background-color: #C5F2D4;
+    padding-top: 1vw;
+    width: 28%;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+
+legend {
+    font-size: 25px;
+}
+
+
+.email {
+    display: flex;
+    gap: 145px;
+    color: rgba(96, 148, 122, 155);
+}
+
+.email a {
+    margin-bottom: 100px;
+}
+
+.send {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 50x;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 2vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#country {
+    width: 24%;
+}
+
+.box {
+    margin-left: 55%;
+    margin-top: -15%;
+}
+
+.text h1 {
+    font-size: 35px;
+}
+
+.emailpic {
+    margin-left: 6px;
+}
+
+.footer {
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/backgroud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.personaltext {
+    display: flex;
+    gap: 10vw;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+.menu1 {
+    padding-top: 4.5%;
+}
+
+.menu2 {
+    padding-top: 4.5%;
+}
+
+.copyright {
+    color: white;
+    margin: 8% 16% 1% 10%;
+    display: flex;
+    gap: 8vw;
+    border-top: 1px solid grey;
+}
+
+.right {
+    margin-left: 160px;
+}
