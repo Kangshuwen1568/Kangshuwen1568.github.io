@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/myhobby.css">
+    <script src="https://kit.fontawesome.com/3b3003fe67.js" crossorigin="anonymous"></script>
+    <title>
+        My Hobby
+    </title>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="top">
+            <div id="logo1">
+                <img src="img/logo.png" alt="" width="80px" height="85px">
+            </div>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">Home</a>
+                <a href="myhobby.html">My Hobby</a>
+                <a href="myfavorite.html">My Favorite</a>
+                <a href="#">My Work</a>
+                <a href="#">Contact</a>
+                <a class="icon" onclick="openNav()">&#9776; </a>
+
+            </div>
+
+
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="myhobby.html">My Hobby</a>
+                    <a href="myfavorite.html">My Favorite</a>
+                    <a href="#">My Work</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+
+        <div class="title1">
+            <h1>My Hobby</h1>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="part1">
+            <img src="img/run.png" alt="" width="250" height="250">
+
+            <p>My hobby is running in my free time. Because running
+                <br>helps build strong bones because it's a weight-bearing
+                <br>exercise. Strengthen muscles. Improve cardiovascular
+                <br>health. Burns a lot of kilojoules.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="container3">
+        <div class="part2">
+            <img src="img/basketball.png" alt="" width="250" height="250">
+
+            <p>Playing basketball can help improve motor
+                <br>coordination, flexibility and stamina. It also
+                <br>encourages speed, agility and strength. Moreover,
+                <br>playing basketball can enhance the function of the
+                <br>heart, improve the function of the digestive system,
+                <br>improve various physical fitness of the human body,
+                <br>control weight and change body shape and so on.
+            </p>
+        </div>
+    </div>
+
+    <div class="container4">
+        <div class="part3">
+            <img src="img/tennis.png" alt="" width="250" height="250">
+
+            <p>Tennis is an excellent cardiovascular exercise
+                <br>that improves muscular strength, endurance,
+                <br>balance, coordination and agility. This also
+                <br>allows for increased social interaction, since
+                <br>you'll need a buddy to play the game with. Plus,
+                <br>tennis is a sport that can be played at any age.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="personaltext">
+            <img src="img/logo.png" alt="" width="70px" height="75px">
+
+            <div class="menu1">
+                <p>Home</p>
+                <p>My Work</p>
+
+            </div>
+            <div class="menu2">
+                <p>My Favorite</p>
+                <p>Contact</p>
+            </div>
+            <div class="social">
+                <img src="img/fb.png" alt="" width="50">
+                <img src="img/twitter.png" alt="50">
+                <img src="img/ig.png" alt="50">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2022 Laaqiq. All Rights Reserved.</p>
+        </div>
+        <div class="right">
+            <p>Terms of Use</p>
+            <p>Privacy Policy</p>
+        </div>
+
+    </div>
+
+
+
+</body>
