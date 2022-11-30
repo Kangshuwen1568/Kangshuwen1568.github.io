@@ -132,3 +132,203 @@ a {
     font-size: 35px;
     color: white;
 }
+
+/*----------------------------------------------------*/
+
+.container2 {
+    position: relative;
+    width: 1024px;
+    background-color: white;
+    height: 42vh;
+    margin: auto;
+}
+
+.part1 img {
+    position: absolute;
+    left: 3vw;
+    top: 40px;
+}
+
+.part1 h2 {
+    position: absolute;
+    left: 20vw;
+    top: 22px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.part1 p {
+    position: absolute;
+    left: 20vw;
+    top: 65px;
+    font-size: 30px;
+}
+
+/*----------------------------*/
+
+.container3 {
+    position: relative;
+    width: 1024px;
+    height: 42vh;
+    margin: auto;
+    background-image: url(../img/backgroud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part2 img {
+    position: absolute;
+    right: 3.5vw;
+    top: 86px;
+}
+
+.part2 h2 {
+    position: absolute;
+    left: 3vw;
+    top: 70px;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+
+.part2 p {
+    position: absolute;
+    left: 3vw;
+    top: 120px;
+    font-size: 30px;
+    color: white;
+}
+
+/*----------------------------------------------------*/
+
+.container4 {
+    position: relative;
+    width: 1024px;
+    background-color: white;
+    height: 42vh;
+    margin: auto;
+}
+
+.part3 img {
+    position: absolute;
+    left: 3vw;
+    top: 70px;
+}
+
+.part3 h2 {
+    position: absolute;
+    left: 20vw;
+    top: 62px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.part3 p {
+    position: absolute;
+    left: 20vw;
+    top: 95px;
+    font-size: 30px;
+}
+
+/*----------------------------*/
+
+.footer {
+    position: relative;
+    width: 1024px;
+    height: 31vh;
+    margin: auto;
+    background-image: url(../img/backgroud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.personaltext {
+    display: flex;
+    gap: 8vw;
+    text-align: center;
+    /*align-items: center;*/
+    color: white;
+    padding-left: 10%;
+    padding-top: 4%;
+}
+
+.social {
+    position: absolute;
+    display: flex;
+    top: 100x;
+    right: 70px;
+}
+
+.menu1 {
+    position: absolute;
+    top: 50px;
+    left: 308px;
+}
+
+.menu2 {
+    position: absolute;
+    top: 50px;
+    left: 458px;
+}
+
+.copyright {
+    color: white;
+    position: absolute;
+    top: 238px;
+    left: 50px;
+}
+
+.right {
+    position: absolute;
+    top: 238px;
+    right: 50px;
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+
+@media screen and (max-width: 375px) {
+    .footer {
+        height: 250vw;
+    }
+
+    .personaltext {
+        position: absolute;
+        top: 10px;
+        left: 100vw;
+    }
+
+    .menu1 {
+        position: absolute;
+        top: 120px;
+        left: 27vw;
+        font-size: 30px;
+    }
+
+    .menu2 {
+        position: absolute;
+        top: 348px;
+        left: 27vw;
+        font-size: 30px;
+    }
+
+    .social {
+        position: absolute;
+        left: 22.5vw;
+        top: 154vw;
+    }
+
+    .copyright {
+        position: absolute;
+        left: 65vw;
+        top: 190vw;
+        font-size: 29px;
+    }
+
+    .right {
+        position: absolute;
+        left: 93vw;
+        top: 216vw;
+        font-size: 29px;
+    }
+}
