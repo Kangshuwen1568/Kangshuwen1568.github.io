@@ -139,7 +139,7 @@ a {
     position: relative;
     width: 1024px;
     background-color: white;
-    height: 82vh;
+    height: 50vh;
     margin: auto;
 }
 
@@ -195,15 +195,16 @@ fieldset h2 {
 
 @media screen and (max-width: 375px) {
     .container2 {
-        height: 170vw;
+        background-color: white;
+        height: 240vw;
     }
 
     .form {
         position: absolute;
-        top: 17%;
+        top: 13%;
         left: 25vw;
         width: 82%;
-        height: 105%;
+        height: 74%;
     }
 
     legend {
@@ -215,10 +216,10 @@ fieldset h2 {
         font-size: 180%;
     }
 
-    fieldset {
+    /*fieldset {
         flex-direction: column;
         align-items: stretch;
-    }
+    }*/
 
     fieldset h2 {
         color: green;
@@ -270,8 +271,192 @@ fieldset h2 {
     }
 
     option {
-        font-size: 15px;
+        font-size: 12px;
     }
 
+}
 
+@media screen and (max-width: 420px) {
+    .container2 {
+        background-color: white;
+        height: 240vw;
+    }
+
+    .form {
+        position: absolute;
+        top: 13%;
+        left: 25vw;
+        width: 82%;
+        height: 74%;
+    }
+
+    legend {
+        font-size: 40px;
+    }
+
+    fieldset input {
+        margin: 5px 0;
+        font-size: 180%;
+    }
+
+    /*fieldset {
+        flex-direction: column;
+        align-items: stretch;
+    }*/
+
+    fieldset h2 {
+        color: green;
+        margin-bottom: -20px;
+        font-size: 30px;
+    }
+
+    .email {
+        display: flex;
+        gap: 290px;
+    }
+
+    .email h2 {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .gender {
+        font-size: 30px;
+        margin-top: -20px;
+        margin-bottom: 10px;
+    }
+
+    input[type=radio] {
+        border: 0px;
+        width: 5%;
+        transform: scale(2.0);
+    }
+
+    .send {
+        margin-top: 30px;
+        margin-bottom: 25px;
+        margin-left: 320px;
+        background-color: green;
+        color: white;
+        border: 1px solid green;
+        border-radius: 2vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        cursor: pointer;
+    }
+
+    #country {
+        width: 45%;
+        font-size: 30px;
+
+    }
+
+    option {
+        font-size: 12px;
+    }
+
+}
+
+/*---------------------------------*/
+
+.container3 {
+    position: relative;
+    width: 1024px;
+    background-color: white;
+    height: 28vh;
+    margin: auto;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contactbox {
+    border: 2px solid #F3D1BF;
+    width: 391px;
+    padding: 26px;
+    background-color: #FDF0E9;
+}
+
+.phoneicon {
+    display: flex;
+}
+
+.contactbox h5 {
+    color: red;
+    margin: 15px 20px;
+
+}
+
+.emailicon {
+    display: flex;
+}
+
+.addressicon {
+    display: flex;
+}
+
+.contactbox p {
+    font-size: 17px;
+}
+
+@media screen and (max-width: 375px) {
+    .container3 {
+        height: 220vw;
+    }
+
+    .contact {
+        display: block;
+        margin-top: 10px;
+        margin-left: 23%;
+        margin-bottom: 20px;
+    }
+
+    .contactbox {
+        width: 493px;
+        padding: 30px;
+    }
+
+    .contactbox h5 {
+        font-size: 26px;
+        margin: 13px 20px;
+    }
+
+    .contactbox p {
+        font-size: 32px;
+        word-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container3 {
+        height: 220vw;
+    }
+
+    .contact {
+        display: block;
+        margin-top: 10px;
+        margin-left: 23%;
+        margin-bottom: 20px;
+    }
+
+    .contactbox {
+        width: 493px;
+        padding: 30px;
+    }
+
+    .contactbox h5 {
+        font-size: 26px;
+        margin: 13px 20px;
+    }
+
+    .contactbox p {
+        font-size: 32px;
+        word-spacing: 5px;
+    }
 }
