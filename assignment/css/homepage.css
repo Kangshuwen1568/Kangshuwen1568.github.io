@@ -377,7 +377,6 @@ legend {
 .email {
     display: flex;
     gap: 145px;
-    color: rgba(96, 148, 122, 155);
 }
 
 .email a {
@@ -387,7 +386,7 @@ legend {
 .send {
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 50x;
+    margin-left: 160px;
     background-color: green;
     color: white;
     border: 1px solid green;
