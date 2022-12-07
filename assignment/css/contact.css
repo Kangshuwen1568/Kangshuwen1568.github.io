@@ -10,20 +10,25 @@ body {
     flex: 1;
 }
 
+p {
+    font-family: 'Epilogue', sans-serif;
+}
+
 .container1 {
     width: 1024px;
     position: relative;
-    height: 35vh;
     margin: auto;
     background-image: url(../img/backgroud.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 50px;
 }
 
+
 #logo1 {
-    margin-left: 150px;
-    margin-top: 10px;
+    margin-top: -25px;
 }
+
 
 .topnav {
     right: 25px;
@@ -139,8 +144,10 @@ a {
     position: relative;
     width: 1024px;
     background-color: white;
-    height: 50vh;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
 
 .form {
@@ -148,9 +155,6 @@ a {
     background-color: #C5F2D4;
     padding-top: 1vw;
     width: 41%;
-    position: relative;
-    top: 15%;
-    left: 30%;
 }
 
 legend {
@@ -195,14 +199,10 @@ fieldset h2 {
 
 @media screen and (max-width: 375px) {
     .container2 {
-        background-color: white;
-        height: 240vw;
+        flex-direction: column;
     }
 
     .form {
-        position: absolute;
-        top: 13%;
-        left: 25vw;
         width: 82%;
         height: 74%;
     }
@@ -215,11 +215,6 @@ fieldset h2 {
         margin: 5px 0;
         font-size: 180%;
     }
-
-    /*fieldset {
-        flex-direction: column;
-        align-items: stretch;
-    }*/
 
     fieldset h2 {
         color: green;
@@ -278,14 +273,10 @@ fieldset h2 {
 
 @media screen and (max-width: 420px) {
     .container2 {
-        background-color: white;
-        height: 240vw;
+        flex-direction: column;
     }
 
     .form {
-        position: absolute;
-        top: 13%;
-        left: 25vw;
         width: 82%;
         height: 74%;
     }
@@ -298,11 +289,6 @@ fieldset h2 {
         margin: 5px 0;
         font-size: 180%;
     }
-
-    /*fieldset {
-        flex-direction: column;
-        align-items: stretch;
-    }*/
 
     fieldset h2 {
         color: green;
@@ -365,8 +351,8 @@ fieldset h2 {
     position: relative;
     width: 1024px;
     background-color: white;
-    height: 28vh;
     margin: auto;
+    padding: 50px;
 }
 
 .contact {
@@ -378,7 +364,7 @@ fieldset h2 {
 
 .contactbox {
     border: 2px solid #F3D1BF;
-    width: 391px;
+    width: 395px;
     padding: 26px;
     background-color: #FDF0E9;
 }
@@ -407,18 +393,18 @@ fieldset h2 {
 
 @media screen and (max-width: 375px) {
     .container3 {
-        height: 220vw;
+        flex-direction: column;
     }
 
     .contact {
         display: block;
         margin-top: 10px;
-        margin-left: 23%;
+        margin-left: 10px;
         margin-bottom: 20px;
     }
 
     .contactbox {
-        width: 493px;
+        width: 500px;
         padding: 30px;
     }
 
@@ -435,18 +421,18 @@ fieldset h2 {
 
 @media screen and (max-width: 420px) {
     .container3 {
-        height: 220vw;
+        flex-direction: column;
     }
 
     .contact {
         display: block;
         margin-top: 10px;
-        margin-left: 23%;
+        margin-left: 10px;
         margin-bottom: 20px;
     }
 
     .contactbox {
-        width: 493px;
+        width: 550px;
         padding: 30px;
     }
 
@@ -458,5 +444,132 @@ fieldset h2 {
     .contactbox p {
         font-size: 32px;
         word-spacing: 5px;
+    }
+}
+
+.footer {
+    position: relative;
+    width: 1024px;
+    justify-content: center;
+    margin: auto;
+    background-image: url(../img/backgroud.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+
+.column {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    padding-bottom: 2%;
+    font-size: 16px;
+
+}
+
+.column a {
+    color: white;
+    padding: 14px 16px;
+    font-size: 17px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.socialmedia {
+    padding-top: 1.5%;
+    flex-direction: row;
+
+}
+
+.copy {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+}
+
+.term {
+    display: flex;
+}
+
+@media screen and (max-width: 375px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .column {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .column a {
+        font-size: 32px;
+    }
+
+    .column img {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .copy {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .term {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .copy p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .column {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .column a {
+        font-size: 32px;
+    }
+
+    .column img {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .copy {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .term {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .copy p {
+        font-size: 30px;
     }
 }

@@ -10,19 +10,22 @@ body {
     flex: 1;
 }
 
+p {
+    font-family: 'Epilogue', sans-serif;
+}
+
 .container1 {
     width: 1024px;
     position: relative;
-    height: 35vh;
     margin: auto;
     background-image: url(../img/backgroud.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 50px;
 }
 
 #logo1 {
-    margin-left: 150px;
-    margin-top: 10px;
+    margin-top: -25px;
 }
 
 .topnav {
@@ -139,58 +142,54 @@ a {
     position: relative;
     width: 1024px;
     background-color: white;
-    height: 42vh;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
 
-.part1 img {
-    position: absolute;
-    left: 3vw;
-    top: 40px;
+.part1left {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
 }
 
-.part1 h2 {
-    position: absolute;
-    left: 20vw;
-    top: 22px;
-    font-size: 30px;
+h2 {
+    font-size: 25px;
     text-decoration: underline;
+    font-family: 'Epilogue', sans-serif;
 }
 
-.part1 p {
-    position: absolute;
-    left: 20vw;
-    top: 65px;
-    font-size: 30px;
+.part1right {
+    width: 50%;
+    font-size: 20px;
+    margin: 40px 20px 20px 20px;
 }
+
 
 @media screen and (max-width: 375px) {
     .container2 {
-        height: 230vw;
+        flex-direction: column;
+
     }
 
-    .part1 img {
-        position: absolute;
-        left: 110vw;
-        top: 70px;
+    .part1left {
+        width: 100%;
     }
 
-    .part1 h2 {
-        position: absolute;
-        left: 60vw;
-        top: 342px;
-        font-size: 40px;
+    h2 {
+        text-decoration: underline;
+        font-size: 32px;
+
     }
 
-    .part1 p {
-        position: absolute;
-        left: 35vw;
-        top: 424px;
+    .part1right {
+        width: 100%;
         text-align: center;
         font-size: 40px;
-        word-spacing: 2px;
     }
-
 }
 
 /*----------------------------*/
@@ -198,62 +197,48 @@ a {
 .container3 {
     position: relative;
     width: 1024px;
-    height: 42vh;
+    display: flex;
+    justify-content: center;
     margin: auto;
     background-image: url(../img/backgroud.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 50px;
 }
 
-.part2 img {
-    position: absolute;
-    right: 3.5vw;
-    top: 86px;
-}
-
-.part2 h2 {
-    position: absolute;
-    left: 3vw;
-    top: 70px;
-    font-size: 30px;
-    text-decoration: underline;
+.part2left {
+    width: 50%;
+    font-size: 20px;
+    margin: 40px 20px 20px 70px;
     color: white;
+
 }
 
-.part2 p {
-    position: absolute;
-    left: 3vw;
-    top: 120px;
-    font-size: 30px;
-    color: white;
+.part2right {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 20px 20px 20px;
 }
 
 @media screen and (max-width: 375px) {
     .container3 {
-        height: 230vw;
+        flex-direction: column;
     }
 
-    .part2 img {
-        position: absolute;
-        left: 106vw;
-        top: 90px;
-    }
-
-    .part2 h2 {
-        position: absolute;
-        left: 80vw;
-        top: 356px;
-        font-size: 40px;
-    }
-
-    .part2 p {
-        position: absolute;
-        right: 6vw;
-        top: 450px;
-        text-align: center;
-        font-size: 40px;
-        word-spacing: 3px;
+    .part2left {
+        width: 100%;
         color: white;
+        text-align: center;
+        order: 2;
+        font-size: 40px;
+        margin-left: -10px;
+    }
+
+    .part2right {
+        width: 100%;
+        order: 1;
     }
 }
 
@@ -263,58 +248,41 @@ a {
     position: relative;
     width: 1024px;
     background-color: white;
-    height: 42vh;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
 
-.part3 img {
-    position: absolute;
-    left: 3vw;
-    top: 70px;
+.part3left {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 20px 20px 20px;
 }
 
-.part3 h2 {
-    position: absolute;
-    left: 20vw;
-    top: 62px;
-    font-size: 30px;
-    text-decoration: underline;
-}
-
-.part3 p {
-    position: absolute;
-    left: 20vw;
-    top: 95px;
-    font-size: 30px;
+.part3right {
+    width: 50%;
+    font-size: 21px;
+    margin: 50px 20px 20px 20px;
 }
 
 @media screen and (max-width: 375px) {
     .container4 {
-        height: 240vw;
+        flex-direction: column;
+
     }
 
-    .part3 img {
-        position: absolute;
-        left: 108vw;
-        top: 110px;
+    .part3left {
+        width: 100%;
     }
 
-    .part3 h2 {
-        position: absolute;
-        left: 105vw;
-        top: 382px;
-        font-size: 40px;
-    }
-
-    .part3 p {
-        position: absolute;
-        left: 30vw;
-        top: 466px;
+    .part3right {
+        width: 100%;
         text-align: center;
         font-size: 40px;
-        word-spacing: 2px;
     }
-
 }
 
 /*----------------------------*/
@@ -322,100 +290,87 @@ a {
 .footer {
     position: relative;
     width: 1024px;
-    height: 31vh;
+
+    justify-content: center;
     margin: auto;
     background-image: url(../img/backgroud.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 50px;
 }
 
-.personaltext {
+.column {
     display: flex;
-    gap: 8vw;
+    flex: 1;
+    justify-content: space-around;
     text-align: center;
-    /*align-items: center;*/
-    color: white;
-    padding-left: 10%;
-    padding-top: 4%;
+    border-bottom: 2px solid gray;
+    padding-bottom: 2%;
+    font-size: 16px;
+
 }
 
-.social {
-    position: absolute;
+.column a {
+    color: white;
+    padding: 14px 16px;
+    font-size: 17px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.socialmedia {
+    padding-top: 1.5%;
+    flex-direction: row;
+
+}
+
+.copy {
     display: flex;
-    top: 100x;
-    right: 70px;
-}
-
-.menu1 {
-    position: absolute;
-    top: 50px;
-    left: 308px;
-}
-
-.menu2 {
-    position: absolute;
-    top: 50px;
-    left: 458px;
-}
-
-.copyright {
+    width: 100%;
+    justify-content: space-between;
     color: white;
-    position: absolute;
-    top: 238px;
-    left: 50px;
 }
 
-.right {
-    position: absolute;
-    top: 238px;
-    right: 50px;
+.term {
     display: flex;
-    gap: 50px;
-    color: white;
 }
 
 @media screen and (max-width: 375px) {
     .footer {
-        height: 250vw;
+        flex-direction: column;
     }
 
-    .personaltext {
-        position: absolute;
-        top: 10px;
-        left: 100vw;
+    .column {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
     }
 
-    .menu1 {
-        position: absolute;
-        top: 120px;
-        left: 27vw;
+    .column a {
+        font-size: 32px;
+    }
+
+    .column img {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .copy {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .term {
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .copy p {
         font-size: 30px;
-    }
-
-    .menu2 {
-        position: absolute;
-        top: 348px;
-        left: 27vw;
-        font-size: 30px;
-    }
-
-    .social {
-        position: absolute;
-        left: 22.5vw;
-        top: 154vw;
-    }
-
-    .copyright {
-        position: absolute;
-        left: 65vw;
-        top: 190vw;
-        font-size: 29px;
-    }
-
-    .right {
-        position: absolute;
-        left: 93vw;
-        top: 216vw;
-        font-size: 29px;
     }
 }
