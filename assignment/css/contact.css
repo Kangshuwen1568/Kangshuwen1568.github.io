@@ -40,7 +40,6 @@ a {
 /*-------------------------------------------------*/
 
 .container2 {
-    position: relative;
     max-width: 1024px;
     background-color: white;
     display: flex;
