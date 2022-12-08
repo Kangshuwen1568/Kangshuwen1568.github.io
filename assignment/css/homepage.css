@@ -15,7 +15,7 @@ p {
 }
 
 .container1 {
-    max-width: 1024px;
+    width: 1024px;
     position: relative;
     margin: auto;
     background-image: url(../img/backgroud.png);
@@ -84,13 +84,7 @@ a {
     justify-content: space-around;
 }
 
-@media screen and (max-width: 375px) {
-
-    .container1 {
-        width: 100%;
-    }
-
-
+@media screen and (max-width: 480px) {
     .home {
         flex-direction: column;
 
@@ -214,7 +208,7 @@ a {
 
 .container2 {
     position: relative;
-    max-width: 1024px;
+    width: 1024px;
     background-color: white;
     margin: auto;
     display: flex;
@@ -254,7 +248,7 @@ a {
 
 .container3 {
     position: relative;
-    max-width: 1024px;
+    width: 1024px;
     /*display: flex;
     */
     margin: auto;
@@ -327,7 +321,7 @@ a {
     padding: 10px 22px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
     .container3 {
         text-align: center;
     }
@@ -369,7 +363,7 @@ a {
 /*====================================*/
 .container4 {
     position: relative;
-    max-width: 1024px;
+    width: 1024px;
     background-color: white;
     margin: auto;
     padding: 50px;
@@ -411,7 +405,7 @@ a {
     font-size: 17px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
     .container3 {
         flex-direction: column;
     }
@@ -443,7 +437,7 @@ a {
 
 .footer {
     position: relative;
-    max-width: 1024px;
+    width: 1024px;
 
     justify-content: center;
     margin: auto;
@@ -489,7 +483,7 @@ a {
     display: flex;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
     .footer {
         flex-direction: column;
     }
