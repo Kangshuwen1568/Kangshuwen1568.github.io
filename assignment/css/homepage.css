@@ -15,11 +15,10 @@ p {
 }
 
 .container1 {
-    width: 1024px;
+    max-width: 1024px;
     background-color: #222831;
-    margin: auto;
+
     display: flex;
-    padding: 50px;
 }
 
 a {
@@ -85,8 +84,8 @@ a {
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 50px;
-    width: 1024px;
+
+    max-width: 1024px;
     margin: auto;
 }
 
@@ -100,7 +99,7 @@ a {
 
 .center p {
     font-size: 25px;
-    word-spacing: 5px;
+    word-spacing: 1px;
 }
 
 @media screen and (max-width: 700px) {
@@ -114,7 +113,7 @@ a {
     }
 
     .center p {
-        font-size: 30px;
+        margin-left: 10px;
     }
 }
 
@@ -122,8 +121,7 @@ a {
 
 .container3 {
     background-color: #222831;
-    width: 1024px;
-    padding: 50px;
+    max-width: 1024px;
 }
 
 .tooltitle {
@@ -142,13 +140,12 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin: 20px 20px 20px 20px;
 }
 
 .part1right {
     font-size: 20px;
     width: 50%;
-    margin: 20px 20px 20px 20px;
+
     color: white;
 }
 
@@ -161,7 +158,7 @@ a {
 .part2left {
     width: 50%;
     font-size: 20px;
-    margin: 40px 10px 20px 90px;
+    margin-left: 55px;
     color: white;
 }
 
@@ -170,26 +167,26 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 20px -20px 20px 20px;
 }
 
 .buttom {
     text-align: center;
-    padding-top: 12px;
+    padding-top: 4px;
+    margin-bottom: 12px;
 }
 
 .buttom a {
     background-color: rgb(255, 102, 0);
     border: none;
     border-radius: 8px;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     padding: 10px 22px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
     .container3 {
         text-align: center;
     }
@@ -205,7 +202,7 @@ a {
     .part1right {
         width: 100%;
         text-align: center;
-        font-size: 40px;
+        font-size: 15px;
     }
 
     .box2 {
@@ -217,7 +214,7 @@ a {
         color: white;
         text-align: center;
         order: 2;
-        font-size: 40px;
+        font-size: 15px;
         margin-left: 0;
         margin-top: -20px;
     }
@@ -226,13 +223,14 @@ a {
         width: 100%;
         order: 1;
     }
+
 }
 
 /*====================================*/
 .container4 {
     background-color: white;
-    width: 1024px;
-    padding: 50px;
+    max-width: 1024px;
+
 }
 
 .contact {
@@ -240,12 +238,12 @@ a {
     justify-content: center;
     margin-top: 40px;
     padding-bottom: 40px;
+    margin-left: 10px;
 }
 
 .contactbox {
     border: 2px solid #F3D1BF;
-    width: 391px;
-    padding: 26px;
+    width: 291px;
     background-color: #FDF0E9;
 }
 
@@ -257,6 +255,10 @@ a {
     color: red;
     margin: 15px 20px;
 
+}
+
+.contactbox p {
+    font-size: 20px;
 }
 
 .emailicon {
@@ -279,105 +281,19 @@ a {
     .contact {
         display: block;
         margin-top: 10px;
-        margin-left: 23%;
+
         margin-bottom: 20px;
     }
 
-    .contactbox {
-        width: 550px;
-        padding: 30px;
-    }
+    .contactbox {}
 
     .contactbox h5 {
-        font-size: 26px;
+        font-size: 20px;
         margin: 13px 20px;
     }
 
     .contactbox p {
-        font-size: 32px;
+        font-size: 26px;
         word-spacing: 5px;
     }
 }
-
-/*====================================*/
-/*
-.footer {
-    background-color: #222831;
-    padding: 50px;
-}
-
-.column {
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-    text-align: center;
-    border-bottom: 2px solid gray;
-    padding-bottom: 2%;
-    font-size: 16px;
-
-}
-
-.column a {
-    color: white;
-    padding: 14px 16px;
-    font-size: 17px;
-    align-items: center;
-    text-decoration: none;
-}
-
-.socialmedia {
-    padding-top: 1.5%;
-    flex-direction: row;
-
-}
-
-.copy {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    color: white;
-}
-
-.term {
-    display: flex;
-}
-
-@media screen and (max-width: 480px) {
-    .footer {
-        flex-direction: column;
-    }
-
-    .column {
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .column a {
-        font-size: 32px;
-    }
-
-    .column img {
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-        margin: auto;
-    }
-
-    .copy {
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .term {
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .copy p {
-        font-size: 30px;
-    }
-}*/

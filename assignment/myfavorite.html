@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/myfavorite.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100;400;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3b3003fe67.js" crossorigin="anonymous"></script>
@@ -15,38 +16,31 @@
 
 <body>
 
-    <div class="container1">
-        <div class="top">
-            <div id="logo1">
-                <img src="img/logo.png" alt="" width="80px" height="85px">
-            </div>
-            <div class="topnav" id="mytopnav">
+    <div class="header">
+        <img id="imglogo" src="img/logo.png" alt="logo" width="5%">
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="myhobby.html">My Hobby</a>
+            <a href="myfavorite.html">My Favorite</a>
+            <a href="mywork.html">My Work</a>
+            <a href="contact.html">Contact</a>
+            <a class="icon" onclick="openNav()">&#9776;
+            </a>
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
                 <a href="index.html">Home</a>
                 <a href="myhobby.html">My Hobby</a>
                 <a href="myfavorite.html">My Favorite</a>
                 <a href="mywork.html">My Work</a>
                 <a href="contact.html">Contact</a>
-                <a class="icon" onclick="openNav()">&#9776; </a>
-
-            </div>
-
-            <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-                <div class="overlay-content">
-                    <a href="index.html">Home</a>
-                    <a href="myhobby.html">My Hobby</a>
-                    <a href="myfavorite.html">My Favorite</a>
-                    <a href="mywork.html">My Work</a>
-                    <a href="contact.html">Contact</a>
-                </div>
             </div>
         </div>
+    </div>
 
-        <div class="title1">
-            <h1>My Favorite</h1>
-        </div>
-
+    <div class="container1">
+        <h1>My Favorite</h1>
     </div>
 
     <div class="container2">

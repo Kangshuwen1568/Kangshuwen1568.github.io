@@ -2,10 +2,9 @@
     display: flex;
     align-items: center;
     margin: auto;
-    width: 1024px;
+    max-width: 1024px;
     background-color: #61789a;
     height: 65px;
-    padding: 0px 50px;
 }
 
 .header img {
@@ -115,8 +114,7 @@
 /*---------------------------------*/
 .footer {
     background-color: #222831;
-    width: 1024px;
-    padding: 50px;
+    max-width: 1024px;
 }
 
 .column {
@@ -168,7 +166,7 @@
     }
 
     .column a {
-        font-size: 32px;
+        font-size: 22px;
     }
 
     .column img {
@@ -191,6 +189,6 @@
     }
 
     .copy p {
-        font-size: 30px;
+        font-size: 18px;
     }
 }
