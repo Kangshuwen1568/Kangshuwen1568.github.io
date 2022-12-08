@@ -15,7 +15,7 @@ p {
 }
 
 .container1 {
-    width: 1024px;
+    max-width: 1024px;
     position: relative;
     margin: auto;
     background-image: url(../img/backgroud.png);
@@ -85,6 +85,12 @@ a {
 }
 
 @media screen and (max-width: 375px) {
+
+    .container1 {
+        width: 100%;
+    }
+
+
     .home {
         flex-direction: column;
 
@@ -112,6 +118,9 @@ a {
         width: 100%;
         order: 1;
         padding-top: 50px;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
     }
 }
 
@@ -205,7 +214,7 @@ a {
 
 .container2 {
     position: relative;
-    width: 1024px;
+    max-width: 1024px;
     background-color: white;
     margin: auto;
     display: flex;
@@ -222,7 +231,7 @@ a {
 }
 
 .center p {
-    font-size: 30px;
+    font-size: 25px;
     word-spacing: 5px;
 }
 
@@ -237,7 +246,7 @@ a {
     }
 
     .center p {
-        font-size: 35.5px;
+        font-size: 30px;
     }
 }
 
@@ -245,7 +254,7 @@ a {
 
 .container3 {
     position: relative;
-    width: 1024px;
+    max-width: 1024px;
     /*display: flex;
     */
     margin: auto;
@@ -360,7 +369,7 @@ a {
 /*====================================*/
 .container4 {
     position: relative;
-    width: 1024px;
+    max-width: 1024px;
     background-color: white;
     margin: auto;
     padding: 50px;
@@ -434,7 +443,7 @@ a {
 
 .footer {
     position: relative;
-    width: 1024px;
+    max-width: 1024px;
 
     justify-content: center;
     margin: auto;
