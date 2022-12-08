@@ -58,7 +58,7 @@ a {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
     .container2 {
         flex-direction: column;
 
@@ -103,7 +103,7 @@ a {
     margin: 20px 20px 20px 20px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
     .container3 {
         flex-direction: column;
     }
@@ -149,7 +149,7 @@ a {
     margin: 50px 20px 20px 20px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
     .container4 {
         flex-direction: column;
 
